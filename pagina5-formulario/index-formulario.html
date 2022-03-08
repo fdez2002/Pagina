@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../pagina5-formulario/formularioCss/formulario.css">
+</head>
+<body>
+    
+<div id="contenedor">
+    
+    <div class="contact_form">
+       
+
+            <nav id="nav-inferior">
+                <nav class="navMenu">
+                    <a href="../PaginaPrincipal/html/index.html">Home</a>
+                </nav>
+            </nav>
+
+        </nav>
+
+        <div class="formulario">
+            <h1>Formulario de contacto</h1>
+            <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+            
+            
+            <form action="submeter-formulario.php" method="post">
+            
+            
+                <p>
+                    <label for="nombre" class="colocar_nombre">Nombre</label>
+                    <span class="obligatorio">*</span>
+                    
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                </p>
+                
+                <p>
+                    <label for="email" class="colocar_email">Email </label>
+                    <span class="obligatorio">*</span> 
+                    <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                </p>
+                
+                <p>
+                    <label for="telefone" class="colocar_telefono">Teléfono</label>
+                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                </p>
+                
+                <p>
+                    <label for="website" class="colocar_website">Sitio web </label>
+                    </label>
+                    <input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
+                </p>
+                
+                <p>
+                    <label for="asunto" class="colocar_asunto">Asunto</label>
+                    <span class="obligatorio">*</span>
+                    
+                    <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                </p>
+                
+                <p>
+                    <label for="mensaje" class="colocar_mensaje">Mensaje</label>  
+                    <span class="obligatorio">*</span>
+                                       
+                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                </p>  
+                
+                <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+                
+                <p class="aviso">
+                    <span class="obligatorio"> * </span>los campos son obligatorios.
+                </p>
+            
+            </form>
+        </div>
+    </div>
+</div>  
+</body>
+</html>

@@ -1,0 +1,191 @@
+@font-face {
+    font-family: Gayathri;
+    src: url(../fuentes/Gayathri/Gayathri-Regular.ttf);
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  font-family: Gayathri;
+}
+body{
+  height: 200vh;
+ 
+}
+/*Contenedor de la pagina*/
+
+#contenedor {
+    width: 100%;
+    overflow: hidden
+  
+  }
+  /*Contenedor superior*/
+
+#nav-principal{
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 12vh;
+    background-color: aqua;
+    float: left;
+  }
+  
+  /*Contenedor superior superior*/
+  #nav-superior{
+    float: left;
+    width: 100%;
+    height: 55%;
+    background-color: rgb(255, 255, 255);
+    
+  }
+
+  /*Logo toyora*/
+  #logo-toyota{
+    float: left;
+    width: 3.8%;
+    height: 75%;
+    margin-top: 0.2%;
+    margin-left: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../imagenes1/logo-toyota.svg);
+  }
+  #info{
+    float: left;
+    width: 20%;
+    height: 4vh;
+    margin-top: 1%;
+    margin-left: 75%;
+  }
+  
+  #icono-busqueda{
+    float: left;
+    width: 7%;
+    height: 2.8vh;
+    margin-left: 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../imagenes1/busqueda-de-lupa.png);
+  }
+  #icono-eu{
+    float: left;
+    width: 25%;
+    height: 3.4vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../imagenes1/logo-olympics.png);
+  }
+  #icono-perfil{
+    float: left;
+    width: 6.4%;
+    height: 2.8vh;
+    margin-left: 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../imagenes1/perfil.png);
+  }
+  /*Contenedor superior inferior*/
+    #nav-inferior{
+    float: left;
+    width: 100%;
+    height: 50%;
+    background-color: rgb(156, 147, 147);
+  }
+
+  /*Menu desplegable*/
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+
+.navMenu {
+  float: left; 
+  margin-top: 1.5%;
+  margin-left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.navMenu a {
+  color: #f6f4e6;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 40%;
+  font-family: "Montserrat", sans-serif;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:hover {
+  color: #f75353;
+}
+
+#coche{
+    width: 100%;
+    height: 70vh;
+    margin-top: 6%;
+    float: left;
+    background-color: rgb(156, 147, 147);
+
+}
+#coche-left{
+    width: 35%;
+    height: 70vh;
+    float: left;
+    border-bottom-right-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    border-top-right-radius: 10px;
+
+}
+
+.letra1{
+    font-size: 300%;
+    margin-top: 12%;
+    margin-left: 5%;
+}
+#caracteristicas{
+    font-size: 100%;
+    margin-top: 6%;
+    margin-left: 10%;
+}
+
+#coche-right{
+    width: 65%;
+    height: 70vh;
+    float: left;
+    background-color: rgb(156, 147, 147);
+
+}
+#imagen-coche{
+    float: left;
+    margin-top: 5%;
+    width: 69%;
+    height: 45vh;
+    margin-left: 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../imagenes1/hero-exterior-4_219.png);
+}
+#video{
+    width: 100%;
+    height: 70vh;
+    float: left;
+    background-color: rgb(157, 161, 160);
+}
+#video1{
+  margin-top: 8%;
+  margin-left: 35% ;
+ 
+}
+#fotos{
+    width: 100%;
+    height: 50vh;
+    float: left;
+    background-color: rgb(120, 156, 144);
+    background: 
+    url(../imagenes1/toyota1.jpg) bottom right no-repeat,
+    url(../imagenes1/toyota2.jpg) center no-repeat,
+    url(../imagenes1/toyota3.jpg) center repeat;
+}
