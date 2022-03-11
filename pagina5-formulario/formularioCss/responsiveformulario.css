@@ -1,0 +1,47 @@
+@media (max-width: 508px){
+    .contact_form{
+        width: 25em; 
+
+        
+        }
+}
+@media (max-width: 432px){
+    .contact_form{
+        width: 20em; 
+        
+
+        
+        }
+    input{
+        width: 20em;
+    }
+    button{
+        width: 20em;
+    }
+    textarea{
+        width: 20em;
+    }
+    h3{
+        font-size: 0.8em;
+    }
+}
+@media (max-width: 348px){
+    .contact_form{
+        width: 15em; 
+        
+
+        
+        }
+    input{
+        width: 12em;
+    }
+    button{
+        width: 12em;
+    }
+    textarea{
+        width: 12em;
+    }
+    h3{
+        font-size: 0.8em;
+    }
+}

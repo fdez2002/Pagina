@@ -17,43 +17,43 @@ background-color: #8a3535;
 }
 
 .contact_form{
-width: 460px; 
-  height: auto;
-  margin: 80px auto;
-border-radius: 10px;  
-padding-top: 30px;
-padding-bottom: 20px;  
-  background-color: #fbfbfb; 
-  padding-left: 30px; 
+width: 28.75em; 
+height: auto;
+margin: 5em auto;
+border-radius: 0.625em;  
+padding-top: 1.875em;
+padding-bottom: 1.25em;  
+  background-color: #fcfcfc; 
+  padding-left: 1.875em; 
 }
 
 
 input{
 background-color: #fbfbfb; 
-width: 408px; 
-height: 40px; 
-border-radius: 5px;  
+width: 25.5em; 
+height: 2.5em; 
+border-radius: 0.313em;  
 border-style: solid; 
-border-width: 1px; 
+border-width: 0.063em; 
 border-color: #ab4493; 
-margin-top: 10px;  
-padding-left: 10px;
-  margin-bottom: 20px; 
+margin-top: 0.625em;  
+padding-left: 0.625em;
+  margin-bottom: 1.25em; 
 }
 
 
 textarea{
   background-color: #fbfbfb; 
-width: 405px; 
-height: 150px; 
-border-radius: 5px;  
+width: 25.313em; 
+height: 9.375em; 
+border-radius: 0.313em;  
 border-style: solid; 
-border-width: 1px; 
+border-width: 0.063em; 
 border-color: #ab4493; 
-margin-top: 10px;  
-padding-left: 10px;
-  margin-bottom: 20px; 
-  padding-top: 15px; 
+margin-top: 0.625em;  
+padding-left: 0.625em;
+  margin-bottom: 1.25em; 
+  padding-top: 0.938em; 
 }
 
 
@@ -64,17 +64,17 @@ float: center;
 
 
 button{
-height: 45px; 
-padding-left: 5px;
-padding-right: 5px; 
-margin-bottom: 20px; 
-margin-top: 10px; 
+height: 2.813em; 
+padding-left: 0.313em;
+padding-right: 0.313em; 
+margin-bottom: 1.25em; 
+margin-top: 0.625em; 
 text-transform: uppercase;
 background-color: #ab4493; 
 border-color: #ab4493; 
 border-style: solid; 
-border-radius: 10px;
-width: 420px;   
+border-radius: 0.625em;
+width: 26.25em;   
   cursor: pointer;
 }
 
@@ -90,22 +90,22 @@ color: #ab4493;
 
 
 .aviso{
-font-size: 13px;  
+font-size: 0.813em;  
 color: #0e0e0e;  
 }
 
 
 h1{
-font-size: 39px;  
+font-size: 2.438em;  
 text-align: letf; 
-padding-bottom: 20px; 
+padding-bottom: 1.25em; 
 color: #ab4493;
 }
 
 
 h3{
-font-size: 16px; 
-padding-bottom: 30px;
+font-size: 1em; 
+padding-bottom: 1.875em;
 color: #0e0e0e;   
 }
 
@@ -128,11 +128,11 @@ color: #0e0e0e;
 
 .formulario input:focus{
 outline:0;
-border: 1px solid #97d848;
+border: 0.063em solid #97d848;
 }
 
 
 .formulario textarea:focus{
 outline:0;
-border: 1px solid #97d848;
+border: 0.063em solid #97d848;
 }

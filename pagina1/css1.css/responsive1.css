@@ -1,0 +1,122 @@
+@media(max-width: 2000px){
+    #imagen-coche{
+        margin-top: 4%;
+        width: 69%;
+
+    }
+    #fotos{
+        background-image: 100% 100%;
+        
+
+    }
+}
+@media(max-width: 1846px){
+    #imagen-coche{
+        background-size: 100% 100%;
+        width: 65%;
+
+    }
+}
+@media(max-width: 1419px){
+    #imagen-coche{
+        background-size: 100% 100%;
+        width: 65%;
+        margin-top: 12%;
+
+    }
+}
+@media(max-width: 1224px){
+    #imagen-coche{
+        background-size: 100% 100%;
+        width: 65%;
+        margin-top: 12%;
+
+    }
+   
+    .letra1{
+        margin-top: 35%;
+    }
+    .navMenu a {
+        margin-top: 9%; ;
+    }
+}
+@media(max-width: 962px){
+    #imagen-coche{
+        background-size: 100% 100%;
+        width: 65%;
+        margin-top: 12%;
+
+    }
+    #coche{
+        height: 170vh;
+    }
+    body{
+        height: 300vh;
+       
+      }
+    #coche-right{
+        width: 100%;
+        height: 70vh;
+        margin-top: 15%;
+    }
+    #coche-left{
+        width: 100%;
+    }
+    .letra1{
+        margin-top: 15%;
+    }
+    .letra1{
+        font-size: 500%;
+    }
+    #caracteristicas{
+        font-size: 200%;
+    }
+}
+@media(max-width:666px){
+    .letra1{
+        font-size: 400%;
+        margin-top: 30%;
+    }
+    #caracteristicas{
+        font-size: 100%;
+        
+    }
+}
+@media(max-width:360px){
+    .letra1{
+        font-size: 300%;
+        margin-top: 50%;
+    }
+    /*Logo toyora*/
+#logo-toyota{
+    float: left;
+    width: 3.1em;
+    height: 2em;
+    margin-left: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/PaginaPrincipal/imagenes/logo-toyota.svg);
+  }
+  #info{
+    width: 10em;
+    height: 3em;
+    margin-top: 2%;
+  }
+  
+  #icono-busqueda{
+    width: 1em;
+    height: 1em;
+    
+  }
+  #icono-eu{
+    width: 3em;
+    height: 1em;
+  }   
+ #icono-perfil{
+    width: 1em;
+    height: 1em;
+    margin-left: 20%;
+   
+  }
+}
+    

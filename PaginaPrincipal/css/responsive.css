@@ -1,0 +1,188 @@
+/*responsive*/
+
+
+@media (max-width: 1200px) {
+  #modelos{
+    width: 90em;
+    height: 70vh;
+  }
+
+ } 
+@media(max-width: 1166px){
+  #modelos{
+    width: 80em;
+    height: 60vh;  }
+}
+
+
+ @media (max-width: 1180px) {
+    #letra-grande {
+        font-size: 400%;
+      }
+    
+ 
+ } 
+ @media(max-width: 1042px){
+  #modelos{
+    width: 70em;
+    height: 50vh;  
+  }
+  
+ }
+ @media(max-width: 953px){
+    #letra-grande{
+      font-size: 350%;
+    }
+ }
+ @media (max-width:916px) {
+  #modelos{
+    width: 60em;
+  }
+
+  strong{
+    font-size: 100%;
+
+}
+     
+}
+@media (max-width: 908px) {
+  a{
+    font-size: 2em;
+  }
+     
+ }  
+
+  
+ @media (max-width: 852px) {
+     
+    #letra-grande {
+        font-size: 350%;
+      }
+    strong{
+        
+        font-size: 100%;
+       
+      }
+   
+ } 
+ @media(max-width: 810px){
+   #letra-grande{
+     font-size: 300%;
+   }
+ }
+ @media (max-width: 790px) {
+  #modelos{
+    width: 40em;
+    height: 60vh;
+  }
+     
+ } 
+ @media (max-width: 732px) {
+  #letra-grande{
+    font-size: 250%;
+  }
+  a{
+    font-size: 1.5em;
+  }
+     
+ } 
+ @media (max-width: 653px){
+  #modelos{
+    width: 30em;
+    height: 60vh;
+  }
+  #contenedor-left{
+    height: 50vh;
+   
+  }
+  #contenedor-dos{
+     height: 30vh;
+
+  }
+  #contenedor-tres{
+    height: 30vh;
+  }
+  #contenedor-right{
+    height: 30vh;
+    
+  }
+  #contenedor-principal{
+    height: 20%;
+   
+    background-color: #000000;
+  }
+  #div-inferior{
+    height: 50vh;
+  
+  }
+ 
+}
+
+
+ @media (max-width: 616px) {
+  strong{
+    font-size: 90%; ;
+  }
+  #letra-grande{
+    font-size: 150%;
+  }
+  #letra-pequeña{
+    font-size: 100%;
+  
+
+  }
+ } 
+
+ @media (max-width: 576px) {
+  strong{
+    font-size: 90%; ;
+  }
+ }
+ @media (max-width: 542px) {
+  #info{
+    width: 15em;
+    
+  }
+  #icono-busqueda{
+    float: left;
+    width: 1.2em;
+    height: 1.2em;
+    
+  }
+  #icono-eu{
+    float: left;
+    width: 4.5em;
+    height: 1.5em;
+    
+  }
+  #icono-perfil{
+    float: left;
+    width: 1.2em;
+    height: 1.2em;
+  
+  }
+  .navMenu {
+    margin-top: 5%;
+   
+  }
+  a{
+    font-size: 1.2em;
+  }
+  #redes-sociales{
+   
+    margin-left: 40%;
+  }
+ }
+ @media(max-width: 436px){
+  a{
+    font-size: 1em;
+  }
+ }
+  
+ @media (max-width: 473px){
+  #modelos{
+    width: 20em;
+    height: 60vh;
+  }
+ } 
+ 

@@ -49,26 +49,25 @@ body{
 /*Logo toyora*/
 #logo-toyota{
   float: left;
-  width: 3.8%;
-  height: 75%;
-  margin-top: 0.2%;
+  width: 4.5em;
+  height: 2.9em;
   margin-left: 1%;
+  margin-top: 0.2%;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(../imagenes/logo-toyota.svg);
 }
 #info{
-  float: left;
-  width: 20%;
-  height: 4vh;
+  float: right;
+  width: 20em;
+  height: 2em;
   margin-top: 1%;
-  margin-left: 75%;
 }
 
 #icono-busqueda{
   float: left;
-  width: 7%;
-  height: 2.8vh;
+  width: 1.8em;
+  height: 1.8em;
   margin-left: 25%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -76,16 +75,16 @@ body{
 }
 #icono-eu{
   float: left;
-  width: 25%;
-  height: 3.4vh;
+  width: 5em;
+  height: 1.8em;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(../imagenes/logo-olympics.png);
 }
 #icono-perfil{
   float: left;
-  width: 6.4%;
-  height: 2.8vh;
+  width: 1.8em;
+  height: 1.8em;
   margin-left: 25%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -145,11 +144,56 @@ strong{
   width: 100%;
   height: 50vh;
   background-color: rgb(0, 255, 106);
+  /*
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(../imagenes/coche4.jpg);
-  
+  */
 }
+/*Animacion imagenes*/
+.slider {
+	width: 100%;
+  height: 50vh;
+  float: left;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+  float: left;
+
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+  height: 50vh;
+
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
 
 #contenedor-dos{
   float: left;
@@ -220,7 +264,6 @@ strong{
   grid-template-rows: 1fr;
 }
 
-/*Menu de abajo*/
 
 .background-one {
   background-color: #151515;
@@ -250,7 +293,7 @@ a {
 }
 
 .link-one {
-  color: #53d9d1;
+  color: #cee4e2;
   transition: color 1s cubic-bezier(0.32, 0, 0.67, 0);
   line-height: 1em;
 }
@@ -269,7 +312,7 @@ a {
   height: 100%;
   top: 0;
   right: 0;
-  background-color: #53d9d1;
+  background-color: #c24242;
 
   clip-path: circle(0% at 50% calc(50%));
   transition: clip-path 1s cubic-bezier(0.65, 0, 0.35, 1);
@@ -448,23 +491,37 @@ a {
 }
 #modelos{
   float: left;
-  width: 100%;
-  height: 100vh;
-  margin-left: 1%;
+  width: 120em;
+  height: 60em;
+  background-color: #111;
+  background-size: 100% 100%;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(../imagenes/imgModelos.PNG);
+  background-image: url(../imagenes/imgPalabras.PNG);
+  
 }
-#redes-sociales{
-  width: 20%;
-  height: 10%;
+/*
+#imagenCre{
+  width: 100%;
+  height: 100%;
   float: left;
-  margin-left: 40%;
-  margin-top: 12%;
+  background-size: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../imagenes/imgPalabras.PNG);
+}
+*/
+
+#redes-sociales{
+  width: 5em;
+  height: 5em;
+  float: left;
+  margin-left: 50%;
+  margin-top: 10%;
 }
 #instagram{
-  width: 30%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
   float: left;
   background-size: cover;
   background-repeat: no-repeat;
@@ -472,16 +529,16 @@ a {
   
 }
 #facebook{
-  width: 30%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
   float: left;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(../imagenes/facebook.png);
 }
 #twitter{
-  width: 30%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
   float: left;
   background-size: cover;
   background-repeat: no-repeat;
@@ -493,6 +550,7 @@ a {
   float: left;
  
 }
- 
+
+
 
 
