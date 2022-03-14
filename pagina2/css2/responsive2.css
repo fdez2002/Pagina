@@ -48,6 +48,11 @@
        
     }
 }
+@media (max-width: 1312px){
+    #cajaImagen1{
+        margin-top: 2%;
+    }
+}
 @media(max-width:1194px){
     #caja3{
         height: 100vh;
@@ -55,6 +60,58 @@
     #contenedor{
         height: 500vh;
        
+    }
+    #cajaImagen1{
+        width: 30em;
+        margin-left: 5%;
+        float: left;
+
+    }
+    #cajaTexto1{
+        width: 30em;
+        float: left;
+        margin-left: 5%;
+
+    }
+    #cajaImagen2{
+        width: 30em;
+        margin-left: 5%;
+
+    }
+    #cajaTexto2{
+        width: 30em;
+        float: left;
+        margin-left: 5%;
+
+    }
+    #cajaImagen3{
+        width: 30em;
+        float: left;
+        margin-left: 5%;
+    }
+   
+    #cajaTexto3{
+        width: 30em;
+        float: left;
+        margin-left: 5%;
+
+    }
+    #cajaImagen4{
+        width: 30em;
+        float: left;
+        margin-left: 5%;
+    }
+    #cajaImagen5{
+        width: 30em;
+        float: left;
+        margin-left: 5%;
+    }
+   
+    #cajaTexto4{
+        width: 30em;
+        float: left;
+        margin-left: 5%;
+
     }
 }
 @media(max-width: 722px){
@@ -216,11 +273,9 @@
 }
 @media(max-width:518px){
     #cajaImagen1{
-        width: 10em;
-        height: 10em;
-        margin-left: 5%;
+       
         float: left;
-        background:no-repeat  center;
+        
 
     }
   

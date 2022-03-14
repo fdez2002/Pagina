@@ -511,6 +511,17 @@ a {
   background-image: url(../imagenes/imgPalabras.PNG);
 }
 */
+table {
+  width: 100%;
+  border: 1px solid #000;
+}
+th, td {
+  width: 25%;
+  text-align: left;
+  vertical-align: top;
+  border: 1px solid #000;
+  border-spacing: 0;
+}
 
 #redes-sociales{
   width: 5em;

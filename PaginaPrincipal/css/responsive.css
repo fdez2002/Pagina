@@ -50,7 +50,7 @@
     font-size: 2em;
   }
      
- }  
+}  
 
   
  @media (max-width: 852px) {
@@ -63,13 +63,42 @@
         font-size: 100%;
        
       }
+      body{
+        height: 700vh;
+       
+      }
+      
+      #contenedor {
+        height: 500vh;
+      
+      }
+      #contenedor-principal{
+        height: 32%;
+      }
+      #contenedor-left{
+        width: 100%;
+        height: 50vh;
+      }
+      #letra-grande{
+        margin-top: 10%;
+      }
+      #contenedor-right{
+        width: 100%;
+      }
+      #contenedor-uno{
+        height: 60vh;      
+      }
+      .slider {
+        height: 70vh;
+      }
+      .slider img {
+        height: 60vh;
+      
+      }
+     
    
  } 
- @media(max-width: 810px){
-   #letra-grande{
-     font-size: 300%;
-   }
- }
+
  @media (max-width: 790px) {
   #modelos{
     width: 40em;
@@ -78,43 +107,62 @@
      
  } 
  @media (max-width: 732px) {
-  #letra-grande{
-    font-size: 250%;
-  }
+ 
   a{
     font-size: 1.5em;
   }
      
  } 
+ @media(max-width:660px){
+  body{
+    height: 700vh;
+   
+  }
+  
+  #contenedor {
+    height: 500vh;
+  
+  }
+  #contenedor-principal{
+    height: 42%;
+  }
+ 
+  #letra-grande{
+    margin-top: 10%;
+  }
+  #contenedor-right{
+    width: 100%;
+    height: 160vh;
+    background-color: aqua;
+  }
+  #contenedor-dos{
+    width: 100%;
+    height: 50vh;
+  }
+  #contenedor-tres{
+    width: 100%;
+    height: 50vh;
+  }
+  
+  
+ }
  @media (max-width: 653px){
   #modelos{
     width: 30em;
     height: 60vh;
   }
-  #contenedor-left{
-    height: 50vh;
-   
-  }
-  #contenedor-dos{
-     height: 30vh;
-
-  }
-  #contenedor-tres{
-    height: 30vh;
-  }
-  #contenedor-right{
-    height: 30vh;
-    
-  }
-  #contenedor-principal{
-    height: 20%;
-   
-    background-color: #000000;
-  }
+ 
   #div-inferior{
     height: 50vh;
   
   }
+  #contenedor-right{
+    width: 100%;
+    height: 200vh;
+    background-color: aqua;
+  }
+  
+ 
  
 }
 
@@ -123,14 +171,7 @@
   strong{
     font-size: 90%; ;
   }
-  #letra-grande{
-    font-size: 150%;
-  }
-  #letra-pequeña{
-    font-size: 100%;
-  
-
-  }
+ 
  } 
 
  @media (max-width: 576px) {

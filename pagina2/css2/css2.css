@@ -133,12 +133,12 @@
 #cajaImagen1{
   float: right;
   border-radius: 1em;
-  width: 35em;
-  margin-top: 8em;
-  height: 20em;
+  margin-top: 6.5em;
+  width: 35%;
+  height: 35vh;
   margin-right: 7em;
   background-size: 100% 100%;
-
+  background-position: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(../imagenes/hilux-4th-001.jpg);
@@ -168,10 +168,12 @@
 #cajaImagen2{
   float: left;
   border-radius: 1em;
-  width: 35em;
   margin-top: 5%;
-  height: 20em;
+  width: 35%;
+  height: 35vh;
   margin-left: 7%;
+  background-size: 100% 100%;
+  background-position: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(../imagenes/102761.jpg);
@@ -199,9 +201,9 @@
 #cajaImagen3{
   float: right;
   border-radius: 1em;
-  width: 25em;
+  width: 25%;
   margin-top: 2%;
-  height: 25em;
+  height: 50vh;
   margin-right: 8%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -231,9 +233,9 @@
 #cajaImagen4{
   float: left;
   border-radius: 1em;
-  width: 35em;
+  width: 35%;
+  height: 35vh;
   margin-top: 4%;
-  height: 20em;
   margin-left: 7%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -262,9 +264,9 @@
 #cajaImagen5{
   float: left;
   border-radius: 1em;
-  width: 35em;
+  width: 35%;
+  height: 35vh;
   margin-top: 4%;
-  height: 20em;
   margin-left: 7%;
   background-size: cover;
   background-repeat: no-repeat;
